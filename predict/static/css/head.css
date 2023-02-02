@@ -1,0 +1,130 @@
+
+
+
+
+
+:root{
+    --darkblue:#1a1aff;
+    --lightblue:#99ccff;
+    --box-shadow:.5rem .5rem 0 #001b48;
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border:.2rem solid var(--green);
+}
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+header{
+    padding: 1.5rem;
+    align-items: center;
+}
+header.headhome{
+    background-color: #001b48;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    height: 80px;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+header .logo{
+    color: --;
+    font-size: 30px;
+    
+}
+.content{
+    color:;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=EB+Garamond:wght@500&family=Metal+Mania&family=Shalimar&family=Source+Serif+Pro:wght@400;700&display=swap');
+/*font-family: 'Crimson Text', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Metal Mania', cursive;
+font-family: 'Shalimar', cursive;
+font-family: 'Source Serif Pro', serif;*/
+*{
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: 'Shalimar', cursive;
+    
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background-color: #e0ecff;
+}
+a {
+    
+    color: #fff;
+}
+i{
+    padding-right: 8px;
+}
+a:hover {
+    color: rgb(179, 179, 179);
+}
+.site-header {
+    
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #001b48;
+    width: 100%;
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 1;
+    display: inline-block;
+    font-weight: 10px;
+    
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+.site-foot{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #001b48;
+    height: 100%;
+    color: #fff;
+    padding: 5px;
+    
+    
+}
+.footp{
+    text-align: center;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    
+
+}
+.site-foot i{
+    
+    padding-left: 8px;
+}
